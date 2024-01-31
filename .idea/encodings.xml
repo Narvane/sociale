@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-application/sociale-auth-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-application/sociale-gateway-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-application/sociale-service-discovery-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-application/sociale-user-info-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-library/sociale-core-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-library/sociale-exception-handler-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-library/sociale-security-library" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-module/sociale-auth-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-module/sociale-gateway-module" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sociale-module/sociale-user-info-module" charset="UTF-8" />
+  </component>
+</project>

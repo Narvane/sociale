@@ -1,0 +1,1 @@
+ALTER TABLE application_user ALTER COLUMN str_password_application_user TYPE VARCHAR (500);

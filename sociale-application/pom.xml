@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+    <parent>
+        <groupId>com.sociale</groupId>
+        <artifactId>sociale-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../</relativePath> <!-- lookup parent from repository -->
+    </parent>
+
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <artifactId>sociale-application</artifactId>
+    <packaging>pom</packaging>
+
+
+
+    <properties>
+        <sociale-library.version>1.0-SNAPSHOT</sociale-library.version>
+        <sociale-user-info-module.version>1.0-SNAPSHOT</sociale-user-info-module.version>
+    </properties>
+
+
+
+    <modules>
+        <module>sociale-auth-app</module>
+        <module>sociale-gateway-app</module>
+        <module>sociale-service-discovery-app</module>
+        <module>sociale-user-info-app</module>
+    </modules>
+
+
+
+    <dependencies>
+
+    </dependencies>
+
+
+
+</project>

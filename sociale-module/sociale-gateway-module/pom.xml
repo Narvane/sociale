@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+
+    <parent>
+        <artifactId>sociale-module</artifactId>
+        <groupId>com.sociale</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+
+
+    <artifactId>sociale-gateway-module</artifactId>
+
+
+
+    <properties>
+        <sociale-core-library.version>1.0-SNAPSHOT</sociale-core-library.version>
+    </properties>
+
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sociale</groupId>
+            <artifactId>sociale-core-library</artifactId>
+            <version>${sociale-core-library.version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+
+</project>

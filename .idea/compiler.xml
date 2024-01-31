@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sociale-auth-app" />
+        <module name="sociale-gateway-module" />
+        <module name="sociale-user-info-app" />
+        <module name="sociale-core-library" />
+        <module name="sociale-service-discovery-app" />
+        <module name="sociale-user-info-module" />
+        <module name="sociale-security-library" />
+        <module name="sociale-gateway-app" />
+        <module name="sociale-auth-module" />
+        <module name="sociale-exception-handler-library" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sociale" target="1.8" />
+      <module name="sociale-application" target="1.8" />
+      <module name="sociale-auth-app" target="1.8" />
+      <module name="sociale-auth-module" target="1.8" />
+      <module name="sociale-core-library" target="1.8" />
+      <module name="sociale-exception-handler-library" target="1.8" />
+      <module name="sociale-gateway-app" target="1.8" />
+      <module name="sociale-gateway-module" target="1.8" />
+      <module name="sociale-library" target="1.8" />
+      <module name="sociale-module" target="1.8" />
+      <module name="sociale-security-library" target="1.8" />
+      <module name="sociale-service-discovery-app" target="1.8" />
+      <module name="sociale-user-info-app" target="1.8" />
+      <module name="sociale-user-info-module" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sociale-application" options="-parameters" />
+      <module name="sociale-auth-app" options="-parameters" />
+      <module name="sociale-auth-module" options="-parameters" />
+      <module name="sociale-core-library" options="-parameters" />
+      <module name="sociale-exception-handler-library" options="-parameters" />
+      <module name="sociale-gateway-app" options="-parameters" />
+      <module name="sociale-gateway-module" options="-parameters" />
+      <module name="sociale-library" options="-parameters" />
+      <module name="sociale-module" options="-parameters" />
+      <module name="sociale-security-library" options="-parameters" />
+      <module name="sociale-service-discovery-app" options="-parameters" />
+      <module name="sociale-user-info-app" options="-parameters" />
+      <module name="sociale-user-info-module" options="-parameters" />
+    </option>
+  </component>
+</project>

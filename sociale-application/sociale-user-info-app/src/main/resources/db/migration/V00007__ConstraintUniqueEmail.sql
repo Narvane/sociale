@@ -1,0 +1,1 @@
+ALTER TABLE application_user ADD CONSTRAINT email_unique UNIQUE (str_email_application_user);

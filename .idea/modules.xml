@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/sociale.iml" filepath="$PROJECT_DIR$/.idea/sociale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-application/sociale-application.iml" filepath="$PROJECT_DIR$/sociale-application/sociale-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-application/sociale-auth-app/sociale-auth-app.iml" filepath="$PROJECT_DIR$/sociale-application/sociale-auth-app/sociale-auth-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-module/sociale-auth-module/sociale-auth-module.iml" filepath="$PROJECT_DIR$/sociale-module/sociale-auth-module/sociale-auth-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-library/sociale-core-library/sociale-core-library.iml" filepath="$PROJECT_DIR$/sociale-library/sociale-core-library/sociale-core-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-library/sociale-exception-handler-library/sociale-exception-handler-library.iml" filepath="$PROJECT_DIR$/sociale-library/sociale-exception-handler-library/sociale-exception-handler-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-application/sociale-gateway-app/sociale-gateway-app.iml" filepath="$PROJECT_DIR$/sociale-application/sociale-gateway-app/sociale-gateway-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-module/sociale-gateway-module/sociale-gateway-module.iml" filepath="$PROJECT_DIR$/sociale-module/sociale-gateway-module/sociale-gateway-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-library/sociale-library.iml" filepath="$PROJECT_DIR$/sociale-library/sociale-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-module/sociale-module.iml" filepath="$PROJECT_DIR$/sociale-module/sociale-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-library/sociale-security-library/sociale-security-library.iml" filepath="$PROJECT_DIR$/sociale-library/sociale-security-library/sociale-security-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-application/sociale-service-discovery-app/sociale-service-discovery-app.iml" filepath="$PROJECT_DIR$/sociale-application/sociale-service-discovery-app/sociale-service-discovery-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-application/sociale-user-info-app/sociale-user-info-app.iml" filepath="$PROJECT_DIR$/sociale-application/sociale-user-info-app/sociale-user-info-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sociale-module/sociale-user-info-module/sociale-user-info-module.iml" filepath="$PROJECT_DIR$/sociale-module/sociale-user-info-module/sociale-user-info-module.iml" />
+    </modules>
+  </component>
+</project>

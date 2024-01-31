@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: registry
+  banner:
+    image:
+      location: classpath:banner.txt
+
+server:
+  port: 8081
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/

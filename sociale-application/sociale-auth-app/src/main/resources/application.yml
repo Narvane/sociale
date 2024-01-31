@@ -1,0 +1,44 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+
+spring:
+  application:
+    name: sociale-auth
+  banner:
+    image:
+      location: classpath:banner.txt
+  flyway:
+    enabled: false
+  jpa:
+      show-sql: false
+      hibernate:
+        ddl-auto: validate
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.PostgreSQL10Dialect
+  jmx:
+      enabled: false
+  datasource:
+      url: jdbc:postgresql://localhost:5432/db_sociale
+      username: postgres
+      password: postgres
+
+sociale:
+  security:
+    token-secret-key: $0C14L3
+    token-expiration-time: 36000
+
+zuul:
+  ribbon:
+    ConnectTimeout: 10000000
+    ReadTimeout: 10000000
+
